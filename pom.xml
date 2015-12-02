@@ -80,10 +80,7 @@
 			        <directory>src/main/webapp</directory>
 			        <targetPath>js</targetPath>
 			      </resource>
-			      <resource>
-			        <directory>src/main/webapp</directory>
-			        <targetPath>css</targetPath>
-			      </resource>
+			      
 			    </webResources>
 			  </configuration>
 			</plugin>
@@ -105,9 +102,7 @@
 				<directory>src/main/resources</directory>
 				<filtering>true</filtering>
 				<includes>
-				    <include>build.properties</include>
-				    <include>application.properties</include>
-				    <include>application.properties.production</include>
+				    
 				</includes>
 		    </resource>
 		    <resource>
